@@ -14,7 +14,7 @@ export default {
 	}
 };
 
-const Template = (args) => ({
+const Template = (args: any) => ({
 	Component: Header,
 	props: args,
 	on: {
@@ -24,12 +24,12 @@ const Template = (args) => ({
 	}
 });
 
-export const LoggedIn = Template.bind({});
+export const LoggedIn: any = Template.bind({});
 LoggedIn.args = {
 	user: {
 		name: 'Jane Doe'
 	}
 };
 
-export const LoggedOut = Template.bind({});
+export const LoggedOut: any = Template.bind({});
 LoggedOut.args = {};
