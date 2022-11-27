@@ -1,6 +1,6 @@
 {
-  "type": "commonjs",
-  "dependencies": {
-    "autoprefixer": "^10.4.13"
-  }
+	"type": "commonjs",
+	"dependencies": {
+		"autoprefixer": "^10.4.13"
+	}
 }
